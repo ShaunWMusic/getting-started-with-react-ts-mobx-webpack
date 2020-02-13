@@ -5,8 +5,8 @@
   "main": "src",
   "scripts": {
     "lint": "eslint --ext=jsx,ts,tsx src",
-    "build.dev": "$(npm bin)/cross-env NODE_ENV=development webpack --config=./webpack/dev.config.js",
-    "watch": "$(npm bin)/cross-env NODE_ENV=development webpack-dev-server --config=./webpack/dev.config.js"
+    "build.dev": "$(npm bin)/cross-env NODE_ENV=development webpack --config=./webpack.config.js",
+    "watch": "$(npm bin)/cross-env NODE_ENV=development webpack-dev-server --config=./webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -71,6 +71,6 @@
     "webpack": "^4.41.0",
     "webpack-bundle-analyzer": "^3.5.2",
     "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.8.2"                      
+    "webpack-dev-server": "^3.8.2"
   }
 }
