@@ -1,0 +1,25 @@
+{
+  "name": "getting-started-with-react-ts-mobx-webpack",
+  "version": "0.0.1",
+  "description": "This is a boilerplate package to jumpstart your react projects",
+  "main": "src",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaunWMusic/getting-started-with-react-ts-mobx-webpack.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "mobx",
+    "webpack"
+  ],
+  "author": "Shaun Willis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaunWMusic/getting-started-with-react-ts-mobx-webpack/issues"
+  },
+  "homepage": "https://github.com/ShaunWMusic/getting-started-with-react-ts-mobx-webpack#readme"
+}
