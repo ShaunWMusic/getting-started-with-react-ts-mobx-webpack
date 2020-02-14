@@ -1,13 +1,10 @@
-import { action, runInAction } from 'mobx';
-import { useLocalStore, useObserver } from 'mobx-react';
-import React, { useEffect } from 'react';
+import { useObserver } from 'mobx-react';
+import React from 'react';
 import { Link, Route, BrowserRouter as Router } from 'react-router-dom';
-import Todo from './todo';
+import { CounterComponent } from './CounterComponent';
 
 function AppRouter() {
   
-
-
   return useObserver(() => (
     <Router>
       <nav>
@@ -16,11 +13,11 @@ function AppRouter() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/todo">Todo List</Link>
+            <Link to="/counter">counter</Link>
           </li>
         </ul>
       </nav>
-      <Route path='/todo' component={Todo}/>
+      <Route path='/counter' component={CounterComponent}/>
     </Router >
   ));
 }
