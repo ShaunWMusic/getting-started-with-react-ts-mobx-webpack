@@ -1,23 +1,18 @@
 {
-  "name": "getting-started-with-react-ts-mobx-webpack",
+  "name": "step4-configure-mobx",
   "version": "0.0.1",
-  "description": "This is a boilerplate package to jumpstart your react projects",
+  "description": "",
   "main": "src",
   "scripts": {
     "lint": "eslint --ext=jsx,ts,tsx src",
     "build.dev": "$(npm bin)/cross-env NODE_ENV=development webpack --config=./webpack.config.js",
-    "watch": "$(npm bin)/cross-env NODE_ENV=development webpack-dev-server --config=./webpack.config.js"
+    "start": "$(npm bin)/cross-env NODE_ENV=development webpack-dev-server --config=./webpack.config.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ShaunWMusic/getting-started-with-react-ts-mobx-webpack.git"
   },
-  "keywords": [
-    "react",
-    "typescript",
-    "mobx",
-    "webpack"
-  ],
+  "keywords": [],
   "author": "Shaun Willis",
   "license": "ISC",
   "bugs": {
