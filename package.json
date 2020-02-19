@@ -1,23 +1,13 @@
 {
-  "name": "getting-started-with-react-ts-mobx-webpack",
+  "name": "step1-install-dependencies",
   "version": "0.0.1",
-  "description": "This is a boilerplate package to jumpstart your react projects",
+  "description": "",
   "main": "src",
-  "scripts": {
-    "lint": "eslint --ext=jsx,ts,tsx src",
-    "build.dev": "$(npm bin)/cross-env NODE_ENV=development webpack --config=./webpack/dev.config.js",
-    "watch": "$(npm bin)/cross-env NODE_ENV=development webpack-dev-server --config=./webpack/dev.config.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ShaunWMusic/getting-started-with-react-ts-mobx-webpack.git"
   },
-  "keywords": [
-    "react",
-    "typescript",
-    "mobx",
-    "webpack"
-  ],
+  "keywords": [],
   "author": "Shaun Willis",
   "license": "ISC",
   "bugs": {
@@ -71,6 +61,6 @@
     "webpack": "^4.41.0",
     "webpack-bundle-analyzer": "^3.5.2",
     "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.8.2"                      
+    "webpack-dev-server": "^3.8.2"
   }
 }
