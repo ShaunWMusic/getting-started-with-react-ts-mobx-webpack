@@ -1,5 +1,3 @@
-// Can't just use exclude rule in webpack config as ts-loader doesn't use it.
-// https://github.com/TypeStrong/ts-loader/issues/544
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
